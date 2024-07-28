@@ -1,9 +1,16 @@
 .body{
     background-color: rgba(17, 17, 17, 1);
     color: rgba(255, 255, 255, 1);
-    max-width: 1140px;
+   /*  max-width: 1140px; */
     border: 2px solid white;
     margin: 0 auto;
+    
+}
+.header{
+    max-width: 1340px;
+    margin: 0 auto;
+    
+    
 }
 
 
@@ -14,11 +21,13 @@
     justify-content: space-between;
     align-items: center;
     border: 2px solid red;
+   
     
 }
 .text-item{
     color: rgba(230, 83, 60, 1);
     font-size: 35px;
+    margin-left: 100px;
 }
 .nav-link{
     display: flex;
@@ -26,10 +35,13 @@
     padding: 7px;
     border-radius: 50px;
     font-size: 20px;
+    margin-right: 100px;
     
 }
 .bar{
     background-color: rgba(230, 83, 60, 1);
+   
+    
 }
 .nav-item{
     list-style: none;
@@ -42,6 +54,16 @@
     padding: 40px;
     border: 2px solid red;
     
+    
+}
+.banner-container{
+    border: 2px solid red;
+    margin-left: 57px;
+
+}
+.banner-container2{
+    border: 2px solid red;
+    margin-right: 60px;
 }
 
 .text-item2{
@@ -54,18 +76,18 @@
     border-radius: 50px;
     border: none;
     color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
 }
 .btn{
     padding: 15px 50px;
     border-radius: 50px;
     background-color: rgba(17, 17, 17, 1);
     border-color: white;
-    color:  white;
+    color: white;
     margin-left: 30px;
-}
-#img{
     
 }
+
 .card-container{
     border: 2px solid red;
     border-radius: 15px;
@@ -74,6 +96,8 @@
     position: relative;
     bottom: 56%;
     left: 240px;
+    height: 100px;
+    
     
     
 }
@@ -83,23 +107,31 @@
     background-color: rgba(255, 255, 255, 0.1);
     width: 200px;
     position: relative;
-    bottom: 37%;
-    right: 50px;
-    
-} 
+    bottom: 35%;
+    right: 100px;
+    height: 100px;
+
+}
 .sercel{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: rgba(230, 83, 60, 1);
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
+    
 } 
-
+.text-a{
+    margin-left: 20px;
+}
 .card-1{
     font-size: 40px;
     font-weight: 700;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    
 }
 .card-2{
     display: flex;
@@ -107,12 +139,14 @@
 }
 .number{
    margin-left: 20px;
+   
     
 }
 /* section-1 style */
 .section-1{
     border: 2px solid red;
-    
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .text-0{
     font-size: 50px;
@@ -127,7 +161,7 @@
     display: flex;
     gap: 50px;
     justify-content: space-around;
-    
+    margin-top: 100px
 
 }
 .image-1{
@@ -136,13 +170,21 @@
 }
 
 /* section-2 style */
+.text-item6{
+    text-align: center;
+    padding-top: 100px;
+}
+
 .section-2{
+    border-radius: 20px;
     background-color: rgba(34, 34, 34, 1);
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
     padding: 80px;
-
+    max-width: 980px;
+    margin: 0 auto;
+    border: 2px solid red;
     
 }
 .text-item5{
@@ -153,4 +195,121 @@
 }
 .color-gray{
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* secton-3 bmi calculatar styles */
+.section-3{
+    border: 2px solid red;
+    justify-content: space-around;
+    display: flex;
+    max-width: 1340px;
+    height: 500px;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 0 auto;
+    padding: 70px 0;   
+}
+
+.font{
+    font-size: 28px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 300px;
+    height: 250px;
+    
+}
+
+th{
+    border: 2px solid  rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+td{
+    border: 2px solid  rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.calculate-info{
+    border: 2px solid white;
+    
+   
+}
+.input-type input{
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 10px;
+    margin-left: auto;
+}
+
+#factor{
+    height: 60px;
+    width: 620px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 10px;
+    margin-left: auto;
+}
+
+/* section-4 trainer container styles */
+.section-4{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.trainer-container-2{
+    display: flex;
+    border: 2px solid rebeccapurple;
+    justify-content: space-around;
+    
+}
+#trainer{
+    width: 70%;
+    
+}
+#trainer-1{
+    width: 98%;
+    margin-right: 200px;
+}
+
+
+/* footer section styles */
+.footer-container{
+    border: 2px solid teal;
+    margin: 0 auto;
+    max-width: 1340px;
+    background-color: rgba(34, 34, 34, 1);
+    padding-top: 50px;
+}
+.footer-container-item{
+    display: flex;
+    justify-content: space-around;
+}
+.dash{
+    width: 1150px;
+    background-color: gray;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+.footer-text{
+   text-align: center;
+   
+}
+
+/* resoponsive for medium divice */
+@media screen and (max-width: 576px) {
+    
+    .banner, .footer-container-item, .footer-text, .section-2, .image-container{
+        flex-direction: column;
+    }
 }
