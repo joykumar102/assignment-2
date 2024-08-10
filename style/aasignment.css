@@ -21,7 +21,7 @@
 .body{
     background-color: rgba(17, 17, 17, 1);
     color: rgba(255, 255, 255, 1);
-    border: 2px solid white;
+    
     margin: 0 auto;
     
 }
@@ -72,27 +72,22 @@
 .menu-bar{
     display: none;
 }
+
 /* banner styles */
 .banner{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     height: 650px;
-    border: 2px solid white;
+    
     max-width: 1140px;
     margin: 0 auto;
     
 }
-.banner-container{
-    /* margin-left: 57px; */
-    border: 2px solid white;
-   
-    
-}
+
 
 .banner-container2{
     margin-right: 120px;
-    border: 2px solid white;
 }
 
 .text-item2{
@@ -202,6 +197,10 @@
 }
 
 /* section-2 style */
+.run-item{
+    width: 400px;
+   
+}
 .text-item6{
     text-align: center;
     padding-top: 100px;
@@ -221,18 +220,21 @@
     
 }
 .text-item5{
-    font-size: 50px;
+    font-size: 51px;
 }
 #run{
     border-radius: 20px;
 }
 .color-gray{
     color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
 }
 
 .bmi-calculator{
-    text-align: center;
-    margin-top: 90px;
+    width: 900px;
+    padding-top: 90px;
+    margin: 0 auto;
+   
 
 }
 .text-item7{
@@ -292,7 +294,9 @@ td{
     border: none;
     margin: 10px;
     margin-left: auto;
+   
 }
+
 
 .factor{
     height: 60px;
@@ -360,6 +364,9 @@ td{
     padding-top: 50px;
     margin-top: 90px;
 }
+.footer-head{
+    width: 400px;
+}
 .footer-container-item{
     display: flex;
     justify-content: space-around;
@@ -384,30 +391,40 @@ td{
   .body{
     border: 5px solid white;
   }
+  .banner, .image-container, .section-2, .section-3,
+     .section-4,
+     .trainer-container 
+    .footer-container-item, 
+    .trainer-container-2, .trainer-container-3, 
+    .footer-container-item{
+        flex-direction: column;
+    }
     .nav-link{
         display: none;
     }
     .menu-bar{
         display: block;
+        
     }
+
     .navbar{
         margin: 0 auto;
         margin-right: 50px;
     }
+    
+    .pragraph-0{
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 250px;
+}
     .text-item{
         margin-left: 50px;
     }
-    .banner, .image-container, .section-2, .section-3,
-     .section-4,
-    .footer-container, .trainer-container 
-    .footer-container-item, 
-    .trainer-container-2, .trainer-container-3{
-        flex-direction: column;
-    }
+    
     .text-item2{
         width: 100%;
         font-size: 50px;
-        border: 2px solid salmon;
+        
         margin: 0 auto;
         text-align: left;
     }
@@ -420,13 +437,142 @@ td{
     }
     .btn-primary{
         padding: 16px 20px;
+    
     }
     .btn{
         padding: 16px 20px;
     }
     .btn-section{
-        justify-content: space-between;
+        
+    }
+
+    #img{
+        width: 140%;
+       
     }
     
-}
+    .card-container{
+        width: 170px;
+        position: relative;
+        bottom: 70%;
+        left: 210px;
+        height: 100px;
+    }
+   .card-containe2{
+    width: 190px;
+    position: relative;
+    bottom: 55%;
+    left: 20px;
+    height: 100px;
+   }
+   /* section-1 resposive */
+   .section-1{
+    margin-top: 500px;
+   }
+   .text-0{
+    font-size: 40px;
+   }
+   .pragraph{
+    font-size: 18px;
+    line-height: 34px;
+    width: 380px;
+    margin: 0  auto;
+   }
+   .image-container{
+    margin-top: 60px;
+    align-items: center;
+    gap: 50px;
+
+   }
+
+   /* section-2 responsive */
+   .section-2{
+    width: 270px;
+    padding: 40px;
+    
+   }
+   .text-item5{
+    margin-right: 20px;
+    font-size: 40px;
+    line-height: 55px;
+   
+   }
+   
+
+   .btn-1{
+    width: 275px;
+    margin-bottom: 70px;
+   }
+   #run{
+    width: 100%;
+   }
+   .pragraph-2{
+    font-size: 14px;
+    line-height: 25px;
+    width: 270px;
+   }
+   
+   /* section-3 responsive */
+   .bmi-calculator{
+    width: 270px;
+    padding: 40px;
+    
+    }
+    .section-3{
+       padding: 30px;
+       height: 100%;
+    }
+   .text-item7{
+    width: 300px;
+    font-size: 40px;
+    
+    }
+    .pragraph-3{
+       
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 350px;
+       
+    }
+   
+    .input-type{
+       display: flex;
+       
+    }
+    .input-type input{
+        width:170px;
+    }
+    .select-text{
+        width:170px;
+    }
+    .factor{
+        width: 355px;
+    }
+    .calculate{
+        width: 200px;
+    }
+
+
+    /* footer section responsive */
+    .footer-container{
+        padding: 40px;
+    }
+    .fitness{
+       font-size: 70px;
+       color: rgba(230, 83, 60, 1);
+      
+    }
+    .dash{
+        width: 100%;
+    }
+    .pragraph-4{
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 330px;
+       
+    }
+
+   }
+
+
 
