@@ -21,7 +21,7 @@
 .body{
     background-color: rgba(17, 17, 17, 1);
     color: rgba(255, 255, 255, 1);
-    
+   
     margin: 0 auto;
     
 }
@@ -120,7 +120,8 @@
     position: relative;
     bottom: 75%;
     left: 220px;
-    height: 105px;
+    height: 110px;
+  
     
 }
 .card-containe2{
@@ -130,9 +131,9 @@
     position: relative;
     bottom: 45%;
     right: 100px;
-    height: 100px;
-    
-
+    height: 110px;
+    backdrop-filter: blur(10px); 
+  
 }
 .sercel{
     width: 20px;
@@ -141,7 +142,6 @@
     background-color: rgba(230, 83, 60, 1);
     padding: 10px;
     margin-top: 30px;
-    
     
 } 
 .text-a{
@@ -159,15 +159,17 @@
 .card-2{
     display: flex;
     justify-content: space-around;
-
+    margin-left: 15px;
+    
 }
 .card-3{
     font-size: 40px;
     font-weight: 700;
     margin: 0 auto;
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 15px; 
 }
+
 /* section-1 style */
 .section-1{
     max-width: 1140px;
@@ -233,6 +235,7 @@
     width: 900px;
     padding-top: 90px;
     margin: 0 auto;
+    
    
 
 }
@@ -251,6 +254,7 @@
     margin: 0 auto;
     padding: 70px 0;
     margin-top: 90px;
+    
 }
 
 .font{
@@ -389,6 +393,8 @@ td{
 @media screen and (max-width: 576px) {
   .body{
     border: 5px solid white;
+    overflow-x: hidden;
+    
   }
   .banner, .image-container, .section-2, .section-3,
      .section-4,
@@ -409,6 +415,7 @@ td{
     .navbar{
         margin: 0 auto;
         margin-right: 50px;
+       
     }
     
     .pragraph-0{
@@ -444,6 +451,7 @@ td{
     }
     .btn-section{
        justify-content: space-between;
+
     }
 
     #img{
@@ -457,6 +465,7 @@ td{
         bottom: 70%;
         left: 200px;
         height: 100px;
+        
     }
    .card-containe2{
     width: 190px;
@@ -464,10 +473,13 @@ td{
     bottom: 55%;
     left: 20px;
     height: 100px;
+   
    }
    /* section-1 resposive */
    .section-1{
+    width: 400px;
     margin-top: 500px;
+    
    }
    .text-0{
     font-size: 40px;
@@ -477,12 +489,13 @@ td{
     line-height: 34px;
     width: 380px;
     margin: 0  auto;
+   
    }
    .image-container{
     margin-top: 60px;
     align-items: center;
     gap: 50px;
-
+    
    }
 
    /* section-2 responsive */
@@ -502,6 +515,7 @@ td{
    .btn-1{
     width: 275px;
     margin-bottom: 70px;
+    
    }
    #run{
     width: 100%;
@@ -515,12 +529,13 @@ td{
    /* section-3 responsive */
    .bmi-calculator{
     width: 270px;
-    padding: 40px;
     
+   
     }
     .section-3{
        padding: 30px;
        height: 100%;
+       
     }
    .text-item7{
     width: 300px;
@@ -540,21 +555,31 @@ td{
        
     }
     .input-type input{
-        width:170px;
+        width:160px;
     }
     .select-text{
-        width:170px;
+        width:160px;
     }
     .factor{
-        width: 355px;
+        width: 335px;
     }
     .calculate{
         width: 200px;
     }
 
+    /* section-4 responsive */
+    .section-4{
+        width: 360px;
+        
+    }
+   
+    #trainer{
+        width: 100%;
+    }
     /* footer section responsive */
     .footer-container{
         padding: 40px;
+       
     }
     .fitness{
        font-size: 70px;
