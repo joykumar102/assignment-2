@@ -451,9 +451,11 @@ td{
     .btn-primary{
         padding: 15px 12px;
         border: 2px solid wheat;
+        font-size: 15px;
     }
     .btn{
         padding: 12px 15px;
+        font-size: 15px;
         
     }
     .btn-section{
@@ -468,26 +470,59 @@ td{
     }
     
     .card-container{
-        width: 180px;
+        width: 120px;
         position: relative;
-        bottom: 60%;
-        left: 200px;
-        height: 100px;
+        bottom: 65%;
+        left: 220px;
+        height: 80px;
+        inline-size: none;
         
         
     }
+    .card-1{
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-top: 15px;
+        
+    }
+    .text-a{
+        font-size: 9px;
+        
+    }
    .card-containe2{
-    width: 190px;
+    width: 160px;
     position: relative;
     bottom: 55%;
     left: 20px;
-    height: 100px;
+    height: 90px;
+    
+   }
+   .card-3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 15px;
+   }
+   .text-b{
+    font-size: 10px;
+    margin-left: 20px;
+   
+   }
+   .sercel{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
     
    }
    /* section-1 responsive */
    .section-1{
     width: 400px;
-    margin-top: 500px;
+    margin-top: 250px;
 
    }
    .text-0{
